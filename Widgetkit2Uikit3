@@ -1,0 +1,165 @@
+/*!
+ * Widgetkit2Uikit3.less | github.com/forrestkirby | (c) 2018 forrestkirby | GNU GPL http://www.gnu.org/licenses/gpl.html
+ * 
+ */
+
+html { /* Wrapper */
+
+/* Article */
+
+.wk-article-meta {
+	color: @article-meta-color;
+	font-family: @article-meta-font-family;
+	font-size: @article-meta-font-size;
+	font-style: @article-meta-font-style;
+	font-weight: @article-meta-font-weight;
+	letter-spacing: @article-meta-letter-spacing;
+	line-height: @article-meta-line-height;
+	text-transform: @article-meta-text-transform;
+}
+
+/* Button */
+
+.wk-button {
+	border-radius: @button-border-radius;
+	border-width: @button-border-width;
+	font-family: @button-font-family;
+	font-size: @button-font-size;
+	font-style: @button-font-style;
+	font-weight: @button-font-weight;
+	letter-spacing: @button-letter-spacing;
+	line-height: @button-line-height;
+	padding-left: @button-padding-horizontal;
+	padding-right: @button-padding-horizontal;
+	text-transform: @button-text-transform;
+	transition-duration: @button-transition-duration;
+	background: @button-default-background;
+	border-color: @button-default-border;
+	color: @button-default-color;
+}
+.wk-button:hover {
+	background: @button-default-hover-background;
+	border-color: @button-default-hover-border !important;
+	color: @button-default-hover-color;
+}
+.wk-button:active {
+	background: @button-default-active-background;
+	border-color: @button-default-active-border !important;
+	color: @button-default-active-color;
+}
+.wk-button.wk-button-primary {
+	background: @button-primary-background;
+	border-color: @button-primary-border;
+	color: @button-primary-color;
+}
+.wk-button.wk-button-primary:hover {
+	background: @button-primary-hover-background;
+	border-color: @button-primary-hover-border !important;
+	color: @button-primary-hover-color;
+}
+.wk-button.wk-button-primary:active {
+	background: @button-primary-active-background;
+	border-color: @button-primary-active-border !important;
+	color: @button-primary-active-color;
+}
+.wk-button.wk-button-secondary {
+	background: @button-secondary-background;
+	border-color: @button-secondary-border;
+	color: @button-secondary-color;
+}
+.wk-button.wk-button-secondary:hover {
+	background: @button-secondary-hover-background;
+	border-color: @button-secondary-hover-border !important;
+	color: @button-secondary-hover-color;
+}
+.wk-button.wk-button-secondary:active {
+	background: @button-secondary-active-background;
+	border-color: @button-secondary-active-border !important;
+	color: @button-secondary-active-color;
+}
+
+/* Card */
+
+.wk-panel-box {
+	color: @card-default-color;
+	background-color: @card-default-background;
+}
+.wk-panel-box-primary {
+	color: @card-primary-color;
+	background-color: @card-primary-background;
+}
+.wk-panel-box-secondary {
+	color: @card-secondary-color;
+	background-color: @card-secondary-background;
+}
+
+/* Heading */
+
+.wk-h1 {
+	.uk-h1();
+}
+.wk-h2 {
+	.uk-h2();
+}
+.wk-h3 {
+	.uk-h3();
+}
+.wk-h4 {
+	.uk-h4();
+}
+.wk-h5 {
+	.uk-h5();
+}
+.wk-h6 {
+	.uk-h6();
+}
+.wk-heading-large {
+	color: @heading-hero-color;
+	font-family: @heading-hero-font-family;
+	font-size: @heading-hero-font-size;
+	font-style: @heading-hero-font-style;
+	font-weight: @heading-hero-font-weight;
+	letter-spacing: @heading-hero-letter-spacing;
+	line-height: @heading-hero-line-height;
+	text-shadow: @heading-hero-text-shadow;
+	text-transform: @heading-hero-text-transform;
+}
+
+/* Inverse */
+
+.uk-light .wk-button.wk-button-primary {
+	background: @inverse-button-primary-background;
+	border-color: @inverse-button-primary-border;
+	color: @inverse-button-primary-color;
+}
+.uk-light .wk-button.wk-button-primary:hover {
+	background: @inverse-button-primary-hover-background;
+	border-color: @inverse-button-primary-hover-border;
+	color: @inverse-button-primary-hover-color;
+}
+.uk-light .wk-button.wk-button-primary:active {
+	background: @inverse-button-primary-active-background;
+	border-color: @inverse-button-primary-active-border;
+	color: @inverse-button-primary-active-color;
+}
+.uk-light .wk-button.wk-button-secondary {
+	background: @inverse-button-secondary-background;
+	border-color: @inverse-button-secondary-border;
+	color: @inverse-button-secondary-color;
+}
+.uk-light .wk-button.wk-button-secondary:hover {
+	background: @inverse-button-secondary-hover-background;
+	border-color: @inverse-button-secondary-hover-border;
+	color: @inverse-button-secondary-hover-color;
+}
+.uk-light .wk-button.wk-button-secondary:active {
+	background: @inverse-button-secondary-active-background;
+	border-color: @inverse-button-secondary-active-border;
+	color: @inverse-button-secondary-active-color;
+}
+
+} /* End Wrapper */
+
+/*
+ * End Widgetkit2Uikit3.css
+ */
