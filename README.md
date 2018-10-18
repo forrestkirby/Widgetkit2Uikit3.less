@@ -24,6 +24,10 @@ Simply copy the LESS to to *YOOtheme > Settings > Custom Code > CSS/LESS* (Jooml
 
 Widgetkit2Uikit3.less is set of custom LESS rules for YOOtheme Pro developed by YOOtheme.
 
+## Help
+
+If you have any suggestions to improve the ruleset, I’ll be glad to add them. You can fork, add your suggestions and request a merge or simply open an [issue](https://github.com/forrestkirby/Widgetkit2Uikit3.less/issues).
+
 ## Links
 
 - [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/introduction)
