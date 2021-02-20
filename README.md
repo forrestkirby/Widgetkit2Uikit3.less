@@ -1,4 +1,7 @@
 # Widgetkit2Uikit3.less
+
+*With the [release of Widgetkit 3](https://yootheme.com/blog/2021/01/26/widgetkit-3.0-completely-rebuilt-with-uikit-3) this repo is obsolete*
+
 Some LESS rules to override Widgetkit 2 styles with UIkit 3 / YOOtheme Pro styles
 
 Copyright (C) 2018 forrestkirby github.com/forrestkirby
